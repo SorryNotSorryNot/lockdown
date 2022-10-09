@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.lockdown"
        name="lockdown"
-       version="1.1.1"
+       version="1.1.2"
        provider-name="Lockdown_Machine">
     <extension point="xbmc.addon.repository" name="Lockdown Repository">
     <dir>
-        <info compressed="false">https://raw.githubusercontent.com/SorryNotSorryNot/lockdown/repo/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/SorryNotSorryNot/lockdown/repo/addons.xml.md5</checksum>
+        <info compressed="false">https://raw.githubusercontent.com/SorryNotSorryNot/lockdown/repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/SorryNotSorryNot/lockdown/repo/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/SorryNotSorryNot/lockdown/master/repo/</datadir>
     </dir>
     <dir>
