@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+  <addon id="plugin.program.lockdown" name="Lockdown Wizard" version="1.0" provider-name="lockdown">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Lockdown Wizard</summary>
+        <description lang="en">Lockdown Wizard</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://lockdown/</source>
+        <news>
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+
+  <addon
+    id="sample.addon2"
+    ...
+  </addon>
+</addons>
